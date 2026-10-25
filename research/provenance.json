@@ -1,0 +1,146 @@
+{
+  "review_date": "2026-10-25",
+  "upstream": {
+    "url": "https://github.com/digama0/lean4lean",
+    "commit": "67f63b0c818920dfaed2ad07ccff187a6a8fe1e3"
+  },
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "batteries": {
+    "url": "https://github.com/leanprover-community/batteries",
+    "type": "git",
+    "subDir": null,
+    "scope": "",
+    "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+    "name": "batteries",
+    "manifestFile": "lake-manifest.json",
+    "inputRev": "v4.35.0",
+    "inherited": false,
+    "configFile": "lakefile.toml"
+  },
+  "legacy": {
+    "source_commit": "a2413ca7416bfe242c45bb7c332353acf9a295cd",
+    "base_commit": "8223d223ed98661882e95d9d6a7126df7097cd76",
+    "history_preserved": true,
+    "included_in_curated_branch": false
+  },
+  "compatibility": {
+    "pull_request": "https://github.com/digama0/lean4lean/pull/47",
+    "reviewed_head": "14484cee13a09b0fc68016c0cce9c4624a4a17d3",
+    "author": "Sebastian Ullrich <sebasti@nullri.ch>",
+    "scope": "Selected runtime compatibility edits and associated reduction proof steps; excludes export runner."
+  },
+  "source_mapping": [
+    {
+      "source": "DupConstTest.lean",
+      "source_sha256": "1d92043b6650baea2497a58241778e95ae31797a13975a9e98da4087ef28a444",
+      "retained": "Lean4Lean/Research/ReplayTests.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5 <noreply@anthropic.com>"
+      ]
+    },
+    {
+      "source": "IndSpecTest.lean",
+      "source_sha256": "85f4f0db20d4f5a2f62adfbd3b9254e583ebb5448d7f0f0411a15f78fbc3e865",
+      "retained": "Lean4Lean/Research/InductiveDifferential.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5 <noreply@anthropic.com>"
+      ]
+    },
+    {
+      "source": "Lean4Lean/Experimental/CtorIsTypeProbe.lean",
+      "source_sha256": "0c63ec3f4b3aa2afe5d4bfd54ad3f34a64b1760499206795beea38a1850bf692",
+      "retained": "Lean4Lean/Research/CtorIsType.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5.1 <noreply@anthropic.com>"
+      ]
+    },
+    {
+      "source": "Lean4Lean/Experimental/ExtraPatRefutation.lean",
+      "source_sha256": "85767cc89677fae8ab30a6f01e0ecd36c92e3465f71efde5639ebb996e11c6ec",
+      "retained": "Lean4Lean/Research/PatternRefutation.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5 <noreply@anthropic.com>"
+      ],
+      "also_retained": "Lean4Lean/Research/PatternHypothesis.lean"
+    },
+    {
+      "source": "Lean4Lean/Experimental/WFExactRefutation.lean",
+      "source_sha256": "b29a96f11d2f39f4ae9c7a2dec6bb5f0a4e0e250028454d7019593e4e94f4b8c",
+      "retained": "Lean4Lean/Research/ConstructorEnvironment.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5.1 <noreply@anthropic.com>"
+      ]
+    },
+    {
+      "source": "Lean4Lean/Experimental/WFTeleProbe.lean",
+      "source_sha256": "4c3246418609aa5bd25f0ae71edcda50693f444fabb076ac73b1f3efb1f24d03",
+      "retained": "Lean4Lean/Research/TelescopeWitness.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5 <noreply@anthropic.com>"
+      ],
+      "adaptation": "Retains concrete block and telescope clauses; replaces translation inversion with a direct typing proof to remove the upstream admitted projection dependency."
+    },
+    {
+      "source": "Lean4Lean/Inductive/Add.lean",
+      "source_sha256": "26124128f4d455b00d56112b70344d88fd8cf91cceff314ee65e018eea22fc8e",
+      "retained": "Lean4Lean/Research/Uniformity.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5 <noreply@anthropic.com>",
+        "Claude Fable 5.1 <noreply@anthropic.com>"
+      ]
+    },
+    {
+      "source": "Lean4Lean/Theory/InductiveSpec.lean",
+      "source_sha256": "35852545994eb1916931ca1fcbbb3dc709fb5380c1cc5209af3c9b85639b4950",
+      "retained": "Lean4Lean/Research/Inductive/Spec.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5 <noreply@anthropic.com>",
+        "Claude Opus 5 <noreply@anthropic.com>"
+      ]
+    },
+    {
+      "source": "Lean4Lean/Theory/InductiveSpecExists.lean",
+      "source_sha256": "ca2a0638df123df0555bb320c0b169cf30a9b6af276140ca075d0c7d8ec151ce",
+      "retained": "Lean4Lean/Research/Inductive/Exists.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5.1 <noreply@anthropic.com>"
+      ]
+    },
+    {
+      "source": "Lean4Lean/Theory/InductiveSpecTransport.lean",
+      "source_sha256": "67e2e0a0854a35169950a7938e71b9308d914a6b65a2b31554ecf94d6deb77fa",
+      "retained": "Lean4Lean/Research/Inductive/Transport.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5 <noreply@anthropic.com>",
+        "Claude Fable 5.1 <noreply@anthropic.com>"
+      ]
+    },
+    {
+      "source": "Lean4Lean/Theory/InductiveSpecWF.lean",
+      "source_sha256": "3351dab0484710326fae566811a2dfa155fafa40df22e050bf5c375863244136",
+      "retained": "Lean4Lean/Research/Inductive/WF.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5 <noreply@anthropic.com>",
+        "Claude Opus 5 <noreply@anthropic.com>"
+      ]
+    },
+    {
+      "source": "Lean4Lean/Verify/Typing/Expr.lean",
+      "source_sha256": "5e738eb27f64443a440bd47fb3ac18f29fd26a50babdc0434b69e7309d9e51c1",
+      "retained": "Lean4Lean/Research/ProjectionCounterexample.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5 <noreply@anthropic.com>"
+      ]
+    },
+    {
+      "source": "NestedTest.lean",
+      "source_sha256": "87dcfb92f2041ff50f0cd65d9bd37330fa7623ba2a53da017b017317bf5c1a54",
+      "retained": "Lean4Lean/Research/KernelRecursorChecks.lean",
+      "recorded_source_authors": [
+        "Claude Fable 5 <noreply@anthropic.com>"
+      ]
+    }
+  ],
+  "review_and_new_controls": "GPT-6 Astra <noreply@openai.com>",
+  "attribution_note": "Historical names are taken verbatim from source Git metadata. Current compilation and review are distinct from original authorship."
+}

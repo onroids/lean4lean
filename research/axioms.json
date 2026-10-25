@@ -1,0 +1,5079 @@
+[
+  {
+    "name": "Lean4Lean.WFExactRefutation.T_ty",
+    "module": "Lean4Lean.Research.ConstructorEnvironment",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFExactRefutation.ctx2",
+    "module": "Lean4Lean.Research.ConstructorEnvironment",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFExactRefutation.envI_T",
+    "module": "Lean4Lean.Research.ConstructorEnvironment",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFExactRefutation.mkty_isType",
+    "module": "Lean4Lean.Research.ConstructorEnvironment",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFExactRefutation.params_pinned",
+    "module": "Lean4Lean.Research.ConstructorEnvironment",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFExactRefutation.sortu_ty",
+    "module": "Lean4Lean.Research.ConstructorEnvironment",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFExactRefutation.venv0_none",
+    "module": "Lean4Lean.Research.ConstructorEnvironment",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.WFExactRefutation.venv0_ordered",
+    "module": "Lean4Lean.Research.ConstructorEnvironment",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFExactRefutation.wfexact_ctor_sat",
+    "module": "Lean4Lean.Research.ConstructorEnvironment",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFExactRefutation.wfexact_unsat",
+    "module": "Lean4Lean.Research.ConstructorEnvironment",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.listV.eq_1",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.listV_le",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.list_cons",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.list_cons_at_recUs",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.list_cons_at_venvT",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.list_const",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.list_nil",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.natV.eq_1",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.nat_const",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.nat_succ",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.nat_zero",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.pandV.eq_1",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.pand_intro",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.prop_sort",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.CtorIsTypeProbe.typeu_sort",
+    "module": "Lean4Lean.Research.CtorIsType",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.EmptyBlockWitness.core",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.EmptyBlockWitness.decl.eq_1",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.EmptyBlockWitness.exactness",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.EmptyBlockWitness.sort_typed",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.EmptyBlockWitness.succeeds_and_ordered",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.EmptyBlockWitness.telescopes",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.EmptyBlockWitness.typesAdded",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.EmptyBlockWitness.view.eq_1",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.EmptyBlockWitness.views",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.eq_1",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.eq_2",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.eq_def",
+    "module": "Lean4Lean.Research.EmptyBlockWitness",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.LargeElimOk.mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Ordered.foldlM_addConst",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Ordered.foldlM_addConst.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.mono.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.mono.match_1_7",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF.mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.of_wf",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.of_wf.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.of_wf.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.of_wf.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.StepMono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.StepMono.addConst",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.StepMono.casesOn",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.StepMono.foldlM",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.StepMono.mk",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.StepMono.mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.StepMono.of_le",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.StepMono.rec",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.StepMono.recOn",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.WFCore.mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.WFExact.mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.WFTele.mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addConst_constants_ne",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addConst_exists_of_none",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addConst_le_of_le",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addConst_mono'",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addConst_mono2",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addConst_of_le",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addDefEq_foldl_mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addDefEq_foldl_mono.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addDefEq_le",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_exists",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_exists.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_exists.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_exists.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_exists.match_1_7",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_exists.match_1_9",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addTypeConsts_exists",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addTypeConsts_mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addTypeConsts_of_le",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addTypeConsts_stepMono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctorFoldF",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctorFold_mono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctorFold_of_le",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctorFold_stepMono",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.declNames",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_exists",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_exists.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_exists.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_exists\u2082",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_exists\u2082.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_le'",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_le'.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_preserve",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_preserve.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addRecs_exists",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addRecs_exists.match_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addRecs_exists.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addRecs_exists.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_ctors_flat",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_ctors_flat.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Exists",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.casesOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.ctorIdx",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.fields",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.mk",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.mk.inj",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.mk.injEq",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.mk.noConfusion",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.mk.sizeOf_spec",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.name",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.noConfusion",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.noConfusionType",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.rIndices",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.rec",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.CtorView.recOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.LargeElimOk",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.LargeElimOk.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.LargeElimOk.match_4",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.arrow",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.below",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.below.arrow",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.below.casesOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.below.defeq",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.below.noOcc",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.below.rec",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.below.validApp",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.brecOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.casesOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.defeq",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.noOcc",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.rec",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.recOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.Positive.validApp",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.K",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.casesOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.ctorIdx",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.elim",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.lvls",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.mk",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.mk.inj",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.mk.injEq",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.mk.noConfusion",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.mk.sizeOf_spec",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.n",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.names",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.nidx",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.noConfusion",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.noConfusionType",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.np",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.params",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.rec",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.recOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.recUvars",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtx.types",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.casesOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.ctorIdx",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.ctors",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.indices",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.mk",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.mk.inj",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.mk.injEq",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.mk.noConfusion",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.mk.sizeOf_spec",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.name",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.noConfusion",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.noConfusionType",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.rec",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TypeView.recOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.casesOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.ctorIdx",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.lvl",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.mk",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.mk.inj",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.mk.injEq",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.mk.noConfusion",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.mk.sizeOf_spec",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.names",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.nidx",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.noConfusion",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.noConfusionType",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.nparams",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.params",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.rec",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.recOn",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.types",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.View.uvars",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.WFCore",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addTypeConsts",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.consumeAnnots",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.consumeAnnots.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.elimData",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.fieldCtx",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.getAppList",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.getAppList.go",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.getAppList.go.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.hasIndOcc",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.hasIndOcc.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaRule",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaRule.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaRules",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaRules.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lift2",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele2",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorConcl",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorIHs",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorIHs.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorTele",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorTele.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorType",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkAppList",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkForallOF",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkLamOF",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkRecCtx",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkRecCtx.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkViews",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkViews.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkViews.match_4",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkViews.match_6",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkViews.match_8",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.motiveType",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recArg?",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recArg?.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recFields",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recFields.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recType",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleAll",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleAll.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit.match_3",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.validIndApp?",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.validIndApp?.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.validIndApp?.match_3",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.instDecidableEqVExpr",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.instDecidableEqVExpr.decEq",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.instDecidableEqVExpr.decEq.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.instDecidableEqVLevel",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.instDecidableEqVLevel.decEq",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.instDecidableEqVLevel.decEq.match_1",
+    "module": "Lean4Lean.Research.Inductive.Spec",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF.casesOn",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF.idx_wf",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF.mk",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF.params_wf",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF.rIndices_fill",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF.rec",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF.recField_fill",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF.recField_tele",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTelescopeWF.recOn",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.casesOn",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.ctor_const",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.fields_wf",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.idx_wf",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.mk",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.params_wf",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.rIndices_fill",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.rec",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.recField_fill",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.recField_tele",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.recOn",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxTypingWF.type_const",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.ofViews",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.WFExact",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.WFTele",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_WF'",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_WF3",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_WF3.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_WF3.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_WF4",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addTypeConsts_lookup",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.bvar_spine_instL",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.closedTele_getElem",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.closedTele_instL",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.closedTele_instL.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.consumeAnnots.eq_def",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.consumeAnnots.induct_unfolding",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.consumeAnnots.match_1.congr_eq_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.consumeAnnots.match_1.congr_eq_2",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.consumeAnnots.match_1.congr_eq_3",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.consumeAnnots_closedN",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.discharge_ctor_const",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.discharge_fields_wf",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.discharge_type_const",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.elimData.eq_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.fieldCtx.eq_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConstV_le",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConstV_le.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConstV_lookup",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConstV_lookup.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConstV_lookup.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_le",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_le.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_lookup",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_lookup.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldlM_addConst_lookup.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addCtors_le",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addCtors_le.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addCtors_lookup",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addCtors_lookup.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addCtors_lookup.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.forall\u2082_getElem_right",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.forall\u2082_length",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.forall\u2082_length.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.forall\u2082_length.match_1_7",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.getAppList.eq_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.getAppList_eq",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.getAppList_go_eq",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.getAppList_go_eq.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.guard_some",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instL_mkAppList",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instL_mkAppList.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instL_mkForallOF",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instL_mkForallOF.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkAppList.eq_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkRecCtx.eq_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkRecCtx_lvls_length",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkRecCtx_lvls_wf",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkViews_inv",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkViews_inv.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkViews_inv.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.params_map_inst",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recArg?_shape",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recArg?_xs",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recFields_inv",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleAll_closedN",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleAll_closedN.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleAll_closedN.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit.eq_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit.eq_2",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit.eq_3",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit.eq_def",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit_closedN",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit_closedN.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit_closedN.match_1_7",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit_length",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleSplit_length.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleWF_of_getElem",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleWF_of_getElem.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.validIndApp?_shape",
+    "module": "Lean4Lean.Research.Inductive.Transport",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ClosedTele",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ClosedTele.liftTele",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ClosedTele.liftTele.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ClosedTele.take",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ClosedTele.take.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.appList",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.appList.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.appList.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.appList.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.append",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.append.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.append.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.append.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.closedN",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.closedN.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.closedN.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.closedN.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.length_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.length_eq.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.length_eq.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.length_eq.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.match_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.mono",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.mono.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.mono.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.mono.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.weakN",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.weakN.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.weakN.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.FillsTele.weakN.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.K_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.casesOn",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.ctor_const",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.elim_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.fields_closed",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.fields_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.idx_closed",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.idx_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.lvls_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.mk",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.n_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.names_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.names_len",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.nidx_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.np_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.params_closed",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.params_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.rIndices_fill",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.rec",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.recField_closed",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.recField_fill",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.recField_shape",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.recField_tele",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.recOn",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.RecCtxWF.type_const",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.append",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.append.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.closedTele",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.closedTele.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.match_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.mkForallOF_isType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.mkForallOF_isType.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.mkLamOF_hasType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.mkLamOF_hasType.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.mono",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.mono.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.of_isType_at",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.of_isType_at.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.weakN",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.TeleWF.weakN.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_WF",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_WF.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_WF.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.addInductCore_WF.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.closedTele_ctxClosed",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.closedTele_ctxClosed.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctorApp_hasType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctorApp_hasType.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctorsFlat",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctorsFlat.eq_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctorsFlat_getElem",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctxLiftN_teleBlock",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ctxLiftN_teleBlock.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.fills_liftIdx",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.fills_liftIdx.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.fills_varSpine",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.fills_varSpine.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.fills_varSpine2",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.fills_varSpine2.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.fills_varSpine_bottom",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.fills_varSpine_mid",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addConst_ordered",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addConst_ordered.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addConst_ordered.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addCtors_ordered",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addCtors_ordered.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addCtors_ordered.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addDefEqs_ordered",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addDefEqs_ordered.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addRecs_ordered",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addRecs_ordered.match_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addRecs_ordered.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addRecs_ordered.match_1_3",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.foldl_addRecs_ordered.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.getElem?_liftTele",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.getElem?_mem_zipIdx",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.hasType_const_id",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.hasType_const_id.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.ihVal_hasType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.indices_wf_weak",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele.match_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnder",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_append",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_append.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_blockSpine",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_blockSpine.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_bottomSpine",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_bottomSpine.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_cons",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_cons\u0394",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_cons\u0394.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_nil",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_nil\u0394",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnderK_nil\u0394.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnder_bottomSpine",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnder_cons",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnder_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnder_eq.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnder_length",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnder_length.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTeleUnder_nil",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele_append",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele_append.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele_cons",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele_length",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele_length.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele_liftIdx",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele_liftIdx.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele_liftTele",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele_liftTele.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instTele_nil",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder.match_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_app",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_app.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_append",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_append.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_blockSpine",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_blockSpine.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_bottomSpine",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_bottomSpine.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_bvar_ge",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_bvar_ge.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_bvar_lt",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_bvar_lt.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_cons",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_const",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_const.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_forallE",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_forallE.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_liftN0_cancel",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_liftN0_cancel.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_liftN_comm",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_liftN_comm.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_mkAppList",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_mkAppList.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_nil",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_sort",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_sort.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_spine_bvar",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_spine_bvar.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnderK_spine_suffix",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_cons",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_ctorTarget",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_eq_instUnderK",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_eq_instUnderK.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_minorConclEval",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_mkAppList",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_mkAppList.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_nil",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_selfSpine",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_sort",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_sort.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.instUnder_spineArgs",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.inst_bvar_gt",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.inst_bvar_lt",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.inst_bvar_self",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.inst_liftN_bvar'",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.inst_liftN_bvar'.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.inst_liftN_mid",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaCtorFoldM_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaCtorFoldM_wf.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaRule_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaRule_wf.match_1_2",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaRule_wf.match_1_5",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaRules.eq_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaRules_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaTypeFoldM_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.iotaTypeFoldM_wf.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lift2.eq_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lift2_liftK",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lift2_liftN_same",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftN_varSpine",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftN_varSpine_lo",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele2.eq_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele2.eq_2",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele2.eq_def",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele2_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele2_eq.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele2_length",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele2_liftK",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele2_liftK.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_cons",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_eq_of_closed",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_eq_of_closed.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_instTele",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_instTele.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_length",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_length.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_liftTele",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_liftTele.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_liftTele2",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_liftTele2.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_liftTele_hi",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_liftTele_hi.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_liftTele_mid",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_liftTele_mid.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_minorIHs_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_nil",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_take",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_take.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_zero",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.liftTele_zero.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lookup_append_left",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lookup_append_left.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lookup_at_length",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lookup_at_length.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lookup_midBlock",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lookup_teleBlock",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lookup_teleBlock.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.lookup_topBlock",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mapM_choose",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mapM_choose.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mapM_getElem?",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mapM_length",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mem_zipIdx_getElem?",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorConcl.eq_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorConcl0",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorConcl0.eq_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorConcl_eq_lift",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorConcl_hasType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorCtorFold_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorCtorFold_eq.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorCtorFold_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorCtorFold_wf.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorFields_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorFields_wf'",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorIH0",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorIH0.eq_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorIH0_liftK",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorIH0_liftN",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorIH_isType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorIHs.eq_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorIHs_length",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorIHs_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorTele_closed",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorTele_flat",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorTele_getElem?",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorTele_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorTele_wf.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorTypeFold_eq",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorTypeFold_eq.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorType_isType'",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorType_isType'.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.minorType_isType_of_parts",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkAppList_cons",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkAppList_inst",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkAppList_inst.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkAppList_liftN",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkAppList_liftN.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkAppList_nil",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkForallOF_append",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkForallOF_cons",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkForallOF_inst",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkForallOF_inst.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkForallOF_liftN",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkForallOF_liftN.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkForallOF_nil",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkLamOF_cons",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkLamOF_nil",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.motiveApp_hasType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.motiveTele_closed",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.motiveTele_wf",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.motiveTele_wf.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.motiveType.eq_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.motiveType_isType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.motiveType_isType'",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.motiveType_isType'.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.motiveType_liftN",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recApp_hasType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recApp_hasType.match_1_11",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recFieldApp_hasType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recField_fill_deep",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recField_tele_deep",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recFields_it_lt",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recFields_pf_lt",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recType.eq_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recType_isType",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.recType_isType.match_1_1",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.reverse_drop_take",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.spine_snoc",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.spine_succ",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.validIndApp?_it_lt",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.varSpine_congr",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "guard.congr_simp",
+    "module": "Lean4Lean.Research.Inductive.WF",
+    "axioms": []
+  },
+  {
+    "name": "EvenT.brecOn.eq",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "EvenT.succ.inj",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "EvenT.succ.injEq",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "EvenT.succ.sizeOf_spec",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "EvenT.zero.sizeOf_spec",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "ForestT.brecOn.eq",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "ForestT.cons.inj",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "ForestT.cons.injEq",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "ForestT.cons.sizeOf_spec",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "ForestT.nil.sizeOf_spec",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "OddT.brecOn.eq",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "OddT.succ.inj",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "OddT.succ.injEq",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "OddT.succ.sizeOf_spec",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "TreeT.brecOn.eq",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "TreeT.leaf.inj",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "TreeT.leaf.injEq",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "TreeT.leaf.sizeOf_spec",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "TreeT.node.inj",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "TreeT.node.injEq",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "TreeT.node.sizeOf_spec",
+    "module": "Lean4Lean.Research.InductiveDifferential",
+    "axioms": []
+  },
+  {
+    "name": "Lean.Expr.looseBVarRange.eq_1",
+    "module": "Lean4Lean.Research.InheritedModelCounterexample",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.Research.inheritedModelContradiction",
+    "module": "Lean4Lean.Research.InheritedModelCounterexample",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "Lean.Expr.looseBVarRange_eq",
+      "Lean.Expr.Data.looseBVarRange_le._native.bv_decide.ax_1_7"
+    ]
+  },
+  {
+    "name": "NestedFixture.branch.inj",
+    "module": "Lean4Lean.Research.KernelRecursorChecks",
+    "axioms": []
+  },
+  {
+    "name": "NestedFixture.branch.injEq",
+    "module": "Lean4Lean.Research.KernelRecursorChecks",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "NestedFixture.branch.sizeOf_spec",
+    "module": "Lean4Lean.Research.KernelRecursorChecks",
+    "axioms": []
+  },
+  {
+    "name": "NestedFixture.brecOn.eq",
+    "module": "Lean4Lean.Research.KernelRecursorChecks",
+    "axioms": []
+  },
+  {
+    "name": "NestedFixture.brecOn_1.eq",
+    "module": "Lean4Lean.Research.KernelRecursorChecks",
+    "axioms": []
+  },
+  {
+    "name": "NestedFixture.leaf.sizeOf_spec",
+    "module": "Lean4Lean.Research.KernelRecursorChecks",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.Pattern.Matches.not_lam",
+    "module": "Lean4Lean.Research.PatternHypothesis",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.Typing.extra_pat_unsat",
+    "module": "Lean4Lean.Research.PatternHypothesis",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ExtraPatRefutation.addConst_eq",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ExtraPatRefutation.addQuot_env\u2080",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ExtraPatRefutation.addQuot_isSome",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ExtraPatRefutation.env\u2081_ordered",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ExtraPatRefutation.env\u2081_quotDefEq",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ExtraPatRefutation.eqConst_WF",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ExtraPatRefutation.quotReady",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ExtraPatRefutation.sexpr_extra_pat_inconsistent",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Lean4Lean.SExpr.Params.extra_pat"
+    ]
+  },
+  {
+    "name": "Lean4Lean.Pattern.MatchesS.not_lam",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.SExpr.mk_instL_lam",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.extra_pat_false",
+    "module": "Lean4Lean.Research.PatternRefutation",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Lean4Lean.SExpr.Params.extra_pat"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ProjectionControl.closedness_counterexample",
+    "module": "Lean4Lean.Research.ProjectionCounterexample",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ProjectionControl.env_ordered",
+    "module": "Lean4Lean.Research.ProjectionCounterexample",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ProjectionControl.output.eq_1",
+    "module": "Lean4Lean.Research.ProjectionCounterexample",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.ProjectionControl.output_not_closed",
+    "module": "Lean4Lean.Research.ProjectionCounterexample",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ProjectionControl.subject_closed",
+    "module": "Lean4Lean.Research.ProjectionCounterexample",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.ProjectionControl.subject_typed",
+    "module": "Lean4Lean.Research.ProjectionCounterexample",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.ProjectionControl.translated",
+    "module": "Lean4Lean.Research.ProjectionCounterexample",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.mkForallOF.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleAll.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleAll.eq_2",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.IndSpec.teleAll.eq_def",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.core",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.ctor_typed",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.decl.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.exactness",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.member.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.n.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.n_typed",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.s.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.sort_typed",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.succeeds_and_ordered",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.sv.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.telescopes",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.tv.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.typesAdded",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.view.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.views",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.z.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.RecursiveBlockWitness.zv.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.VEnv.HasType.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "Lean4Lean.VEnv.IsType.eq_1",
+    "module": "Lean4Lean.Research.RecursiveBlockWitness",
+    "axioms": [
+      "propext"
+    ]
+  },
+  {
+    "name": "ReplayTests.Item.mk.sizeOf_spec",
+    "module": "Lean4Lean.Research.ReplayTests",
+    "axioms": []
+  },
+  {
+    "name": "ReplayTests.proof",
+    "module": "Lean4Lean.Research.ReplayTests",
+    "axioms": []
+  },
+  {
+    "name": "ScopeCounterexample.Block.mk.sizeOf_spec",
+    "module": "Lean4Lean.Research.ScopeCounterexample",
+    "axioms": []
+  },
+  {
+    "name": "Lean4Lean.WFTeleProbe.hCeq",
+    "module": "Lean4Lean.Research.TelescopeWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFTeleProbe.hIeq",
+    "module": "Lean4Lean.Research.TelescopeWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFTeleProbe.hV",
+    "module": "Lean4Lean.Research.TelescopeWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFTeleProbe.le1",
+    "module": "Lean4Lean.Research.TelescopeWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFTeleProbe.le2",
+    "module": "Lean4Lean.Research.TelescopeWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  {
+    "name": "Lean4Lean.WFTeleProbe.probe",
+    "module": "Lean4Lean.Research.TelescopeWitness",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-25",
+  "upstream_commit": "67f63b0c818920dfaed2ad07ccff187a6a8fe1e3",
+  "tested_code_commit": "e190c5a706f4c576e84cdece44735a8414f05590",
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "batteries_commit": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+  "checks": {
+    "research": {
+      "command": "bash research/check.sh",
+      "exit_code": 0,
+      "modules": 20,
+      "lake_jobs": 108,
+      "cache_policy": "Lake reuses successful outputs for unchanged inputs; runtime assertions execute during compilation. All source inputs are pinned and hashed below."
+    },
+    "axioms": {
+      "checked_noninternal_theorems_and_core_declarations": 750,
+      "standard_axioms_only": 747,
+      "allowed_standard_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "intentional_refutations": [
+        {
+          "name": "Lean4Lean.ExtraPatRefutation.sexpr_extra_pat_inconsistent",
+          "module": "Lean4Lean.Research.PatternRefutation",
+          "axioms": [
+            "propext",
+            "Quot.sound",
+            "Lean4Lean.SExpr.Params.extra_pat"
+          ]
+        },
+        {
+          "name": "Lean4Lean.extra_pat_false",
+          "module": "Lean4Lean.Research.PatternRefutation",
+          "axioms": [
+            "propext",
+            "Quot.sound",
+            "Lean4Lean.SExpr.Params.extra_pat"
+          ]
+        },
+        {
+          "name": "Lean4Lean.Research.inheritedModelContradiction",
+          "module": "Lean4Lean.Research.InheritedModelCounterexample",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound",
+            "Lean.Expr.looseBVarRange_eq",
+            "Lean.Expr.Data.looseBVarRange_le._native.bv_decide.ax_1_7"
+          ]
+        }
+      ],
+      "modules": {
+        "Lean4Lean.Research.ConstructorEnvironment": 10,
+        "Lean4Lean.Research.CtorIsType": 15,
+        "Lean4Lean.Research.EmptyBlockWitness": 12,
+        "Lean4Lean.Research.Inductive.Exists": 63,
+        "Lean4Lean.Research.Inductive.Spec": 146,
+        "Lean4Lean.Research.Inductive.Transport": 101,
+        "Lean4Lean.Research.Inductive.WF": 321,
+        "Lean4Lean.Research.InductiveDifferential": 21,
+        "Lean4Lean.Research.InheritedModelCounterexample": 2,
+        "Lean4Lean.Research.KernelRecursorChecks": 6,
+        "Lean4Lean.Research.PatternHypothesis": 2,
+        "Lean4Lean.Research.PatternRefutation": 11,
+        "Lean4Lean.Research.ProjectionCounterexample": 7,
+        "Lean4Lean.Research.RecursiveBlockWitness": 24,
+        "Lean4Lean.Research.ReplayTests": 2,
+        "Lean4Lean.Research.ScopeCounterexample": 1,
+        "Lean4Lean.Research.TelescopeWitness": 6
+      },
+      "record_sha256": "c7724c2fcaeaa0c75d0f9583d97a519d9bc9218b793325d46d2f09fd263b5cfe",
+      "generated_record_sha256": "e5a8dd84af243d3e9afe15b03d172ebf9e43689ba46842029bdacae4f35134fd",
+      "record": "research/axioms.json"
+    },
+    "uniformity": {
+      "raw_declarations": 4,
+      "traversal_controls": 14,
+      "native_positive_blocks": 1360,
+      "native_positive_constructors": 2115,
+      "result": "Native and candidate reject both erased nonuniform cases, and accept their valid variants. Baseline accepts all four."
+    },
+    "replay": {
+      "identical_constant_kinds_reused": 8,
+      "conflicting_mutations_rejected": 17,
+      "fresh_theorem": "accepted",
+      "fresh_unsafe_definition": "skipped as before"
+    },
+    "abstract_differential": {
+      "named_examples": 17,
+      "blocks_checked": 2907,
+      "nested_blocks_skipped": 38,
+      "large_literal_blocks_skipped": 1,
+      "iota_rules_typechecked": 4619,
+      "failures": 0
+    },
+    "native_recursor_consistency": {
+      "recursors": 3051,
+      "rules": 4953,
+      "nested_blocks": 39,
+      "nested_recursors": 172,
+      "failures": 0,
+      "leaked_nested_declarations": 0,
+      "planted_faults_caught": 3,
+      "scope": "Native stored-data checks, not verification of lean4lean nested-inductive handling."
+    },
+    "abstract_scope_limits": {
+      "native_accepted_model_rejected": 2,
+      "cases": [
+        "equivalent syntactically different result universes",
+        "definition-hidden index telescope"
+      ]
+    },
+    "joint_witnesses": [
+      "empty datatype, both elimination modes",
+      "Nat-shaped datatype, two constructors, recursive field, large elimination"
+    ],
+    "full_verify": {
+      "command": "lake build Lean4Lean.Verify",
+      "exit_code": 1,
+      "failing_module": "Lean4Lean.Verify.Environment.Primitive.Condition",
+      "line": 2468,
+      "reason": "decide_tr_inv' invokes ite_tr_inv', but the Lean 4.35 runtime adapter now constructs Decidable.decide rather than Condition.ite.",
+      "log_sha256": "34d9b53ffeb87e8f468de45a17a7e25142e00a3c1dec6d798e93f2014e654040"
+    },
+    "legacy": {
+      "toolchain": "leanprover/lean4:v4.33.1",
+      "command": "lake build Lean4Lean.Theory Lean4Lean.Verify Lean4Lean.Probes",
+      "exit_code": 0,
+      "jobs": 169,
+      "changed_files_classified_and_hashed": 73,
+      "changed_library_modules_selected_for_axiom_audit": 54,
+      "theorem_records": 2790,
+      "depends_on_sorryAx": 180,
+      "caveat": "Counts include inherited theorems in changed modules. See legacy-axioms-summary.json; this is not the basis for current-version proof claims."
+    }
+  },
+  "limitations": [
+    "No end-to-end executable-checker soundness or consistency claim.",
+    "Full upstream Verify migration has the recorded build failure.",
+    "Old mathlib corpus and duplicate-content claims were not rerun.",
+    "No new native kernel soundness bug is claimed."
+  ],
+  "input_sha256": {
+    "Lean4Lean/Level.lean": "65b4a2e62ca830848e80e5740f86a023078ec574564d1046f7207a5caafbb271",
+    "Lean4Lean/Primitive.lean": "d2015fe27a3e12da3ebab9bfa6839484e69aacdbd6734180c8bda6060b315bdd",
+    "Lean4Lean/Replay.lean": "360c1ef4f0af8a6e6101ad2120188f4f4a5f02add702a5ec9a72dc49e77dfb0d",
+    "Lean4Lean/Research/ConstructorEnvironment.lean": "a91b40a0d565664c1c938d810ba6aa71f6365b91bb523d42955b5656e853f695",
+    "Lean4Lean/Research/CtorIsType.lean": "7c34822c057889c9e3921427977de072637e66ccda0e672f6fe8ea689c0a5caf",
+    "Lean4Lean/Research/EmptyBlockWitness.lean": "8ac8cb81c3254834cc4fb86534678821597ba8c80d0fae93c146ee7b3f3a8087",
+    "Lean4Lean/Research/Inductive/Exists.lean": "010b49854013d26425977a7f0efeeb125b0ccdf9b8fe1bf7c8938c36fcf1cdb6",
+    "Lean4Lean/Research/Inductive/Spec.lean": "6bfb4d54e06f2a3bd7b7a55b2fcdf2b5ca0464790dca7e8d4f5dd582f5f743f3",
+    "Lean4Lean/Research/Inductive/Transport.lean": "4a5685aa9dc7ac763d90fc001403b7b799ac2e4d0740afa281d8c1d642b3b673",
+    "Lean4Lean/Research/Inductive/WF.lean": "e49e5665b1540b91e04953f5e2f6908cad27f3202aa073f5e2e1f74356d302d8",
+    "Lean4Lean/Research/InductiveDifferential.lean": "16d835512a72e1753c6f456eb54249a1679541fef0ec50cffbf20edb270f6e37",
+    "Lean4Lean/Research/InheritedModelCounterexample.lean": "e0a31c578ebdf422be295940f728d34622026b0b226285d9299f51a536a0c350",
+    "Lean4Lean/Research/KernelRecursorChecks.lean": "f7031cdc8496a44e4a1ccc4925a0386f90bd2bb75ea58b4a78a5f6696722a954",
+    "Lean4Lean/Research/PatternHypothesis.lean": "21ac20b422d05f0a0576d7ea7f950de7a03bed968dd95bc9bacad9a3f5fb184e",
+    "Lean4Lean/Research/PatternRefutation.lean": "c7536f92b32c20b3d57f9adc2c07fe376f67d86f95979b9a16acebb42c3d0188",
+    "Lean4Lean/Research/ProjectionCounterexample.lean": "398c2b0e9f184db0c3dd6995115149f1562c687199e97dbfcff7409062951175",
+    "Lean4Lean/Research/RecursiveBlockWitness.lean": "a22fb6751ad7c49806e582f4499bf82b6f2da167bfa90d82aa6778d6dfbd2f75",
+    "Lean4Lean/Research/ReplayTests.lean": "d06571e25c893296afc55aae757325e547886892d56d92bb417783da6e1ed9fb",
+    "Lean4Lean/Research/ScopeCounterexample.lean": "f659596e5e9b063e3a1efb1aedd8c8d05a3cfe7a2a1faad89a517ab5b98f8561",
+    "Lean4Lean/Research/SpecLimits.lean": "0413b42043191013fcebf05964ca7866776a8e8c977d03a27c1a317b13cef4c0",
+    "Lean4Lean/Research/TelescopeWitness.lean": "466aca0093b9ac7f753c16c9795a0588fa43ec006125428eb8ed40170fe334ea",
+    "Lean4Lean/Research/Uniformity.lean": "4e25d9c03ee44747d402d222646f940c79ae007aeba2ac096dc0e57c0b3a9a49",
+    "Lean4Lean/Research/UniformityTests.lean": "ca7db3c7c939a583df3c17eb450c51c03110d65933fae75a30b3cde28c56f6fd",
+    "Lean4Lean/Std/Basic.lean": "5a82dcb10392ed9e9ef9ec910a03b1cc62ee7f02a9859ca50d80a762193c194f",
+    "Lean4Lean/TypeChecker.lean": "69abea5247403901b87aacbc4ee9ab2b691e49c8afc068fa0079cbfe2b7eebab",
+    "Lean4Lean/Verify/TypeChecker/IsDefEq.lean": "d61154b70425a137938583e0d2394bb828e812608ad11c560aab14ae9425d0cc",
+    "Lean4Lean/Verify/TypeChecker/Reduce.lean": "28d1554c83d247cd84658f2db30bd14e5194dd4b1d3dd99dda0d0c11a24b8c7e",
+    "Lean4Lean/Verify/TypeChecker/WHNF.lean": "acf2f4fe04152a2fb9f6a7fd98b48f0dfdda06f58b586a08fe8dd417c85cfb01",
+    "lake-manifest.json": "c5853b69c446a866f062b70b69543e586a74932e383ac1c0ab4bb170f31764fb",
+    "lakefile.toml": "938a1b1ff85fbe3739f7b25f1ca474a125a2e7ed8a70b0f0e7e7e5c7d1210d7a",
+    "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+    "research/AxiomAudit.lean": "311dec6b6a287c04994cd450f1202ed8862046a86b2ee404b465d55ac8373edb",
+    "research/check.sh": "dd3ea83e626385ac0547480386819c4543f67040bd5a02b2fa5575095fc0db54",
+    "research/check_sources.py": "b4ad71146f1203f38f395a97c26886cbe146a054f9e842da4b7bf3eb22b18855"
+  },
+  "suite_log_sha256": "ccde74f45e56e65a3669ffb0940a35ceac091369b100f8e48ce9d5cd542aaa41"
+}

@@ -1,0 +1,667 @@
+{
+  "source_commit": "a2413ca7416bfe242c45bb7c332353acf9a295cd",
+  "source_base": "8223d223ed98661882e95d9d6a7126df7097cd76",
+  "files": [
+    {
+      "path": "AxiomTrail.expected.txt",
+      "added": 224,
+      "deleted": 0,
+      "source_sha256": "c49b28b24ebca75949ddade9ce960b3faa14f10b6888ef09fc60399f6b33a814",
+      "disposition": "superseded-docs",
+      "reason": "Historical notes/baselines preserved at the source revision; replaced by corrected claim, assumption, reproduction and disposition records.",
+      "replacement": null
+    },
+    {
+      "path": "AxiomTrail.lean",
+      "added": 17,
+      "deleted": 0,
+      "source_sha256": "ef5ef3cb99844f9a420f3be1bb1255ef5856eb7a489f9be457fb68974fc30020",
+      "disposition": "superseded-docs",
+      "reason": "Historical notes/baselines preserved at the source revision; replaced by corrected claim, assumption, reproduction and disposition records.",
+      "replacement": null
+    },
+    {
+      "path": "DupConstTest.lean",
+      "added": 45,
+      "deleted": 0,
+      "source_sha256": "1d92043b6650baea2497a58241778e95ae31797a13975a9e98da4087ef28a444",
+      "disposition": "historical",
+      "reason": "Old comparator ignored theorem/opaque bodies and kinds; its identical-content conclusion is withdrawn. Replaced by full ConstantInfo comparison and adversarial regressions.",
+      "replacement": "Lean4Lean/Research/ReplayTests.lean"
+    },
+    {
+      "path": "ElimIdentitySweep.lean",
+      "added": 64,
+      "deleted": 0,
+      "source_sha256": "f62205c95a8b230bec74e2594af02df5484cc4794af04fbae8255a332b282143",
+      "disposition": "historical",
+      "reason": "Original source and reports preserved; old mathlib corpus not rerun. Counts are historical, not theorem coverage.",
+      "replacement": null
+    },
+    {
+      "path": "HOST-KERNEL-CAVEAT.md",
+      "added": 41,
+      "deleted": 0,
+      "source_sha256": "f15eda42124aec3628f535f17c206832e0f24919a4e512316492cff261f0bff6",
+      "disposition": "superseded-docs",
+      "reason": "Historical notes/baselines preserved at the source revision; replaced by corrected claim, assumption, reproduction and disposition records.",
+      "replacement": null
+    },
+    {
+      "path": "IndSpecTest.lean",
+      "added": 263,
+      "deleted": 0,
+      "source_sha256": "85f4f0db20d4f5a2f62adfbd3b9254e583ebb5448d7f0f0411a15f78fbc3e865",
+      "disposition": "extracted",
+      "reason": "Retained as a current-version, explicitly scoped proof or regression; imports and assertions reviewed.",
+      "replacement": "Lean4Lean/Research/InductiveDifferential.lean"
+    },
+    {
+      "path": "Lean4Lean/Experimental/CtorIsTypeProbe.lean",
+      "added": 193,
+      "deleted": 0,
+      "source_sha256": "0c63ec3f4b3aa2afe5d4bfd54ad3f34a64b1760499206795beea38a1850bf692",
+      "disposition": "extracted",
+      "reason": "Retained as a current-version, explicitly scoped proof or regression; imports and assertions reviewed.",
+      "replacement": "Lean4Lean/Research/CtorIsType.lean"
+    },
+    {
+      "path": "Lean4Lean/Experimental/ExtraPatRefutation.lean",
+      "added": 147,
+      "deleted": 0,
+      "source_sha256": "85767cc89677fae8ab30a6f01e0ecd36c92e3465f71efde5639ebb996e11c6ec",
+      "disposition": "extracted",
+      "reason": "Retained as a current-version, explicitly scoped proof or regression; imports and assertions reviewed.",
+      "replacement": "Lean4Lean/Research/PatternRefutation.lean",
+      "additional_replacements": [
+        "Lean4Lean/Research/PatternHypothesis.lean"
+      ]
+    },
+    {
+      "path": "Lean4Lean/Experimental/GetElimLevelProbe.lean",
+      "added": 74,
+      "deleted": 0,
+      "source_sha256": "5344d0a2a45ad7089425b1177ab46022b05b8b215a084288ec8ec8df2942ba6c",
+      "disposition": "superseded",
+      "reason": "Tests the excluded bounded fresh-name implementation; upstream #62 offers a different totalization.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Experimental/ListRecProbe.lean",
+      "added": 458,
+      "deleted": 0,
+      "source_sha256": "a54055dc4fe2fed216922ef6b5849460f2a2ff9d6f186c891a466fc0fd8f6b94",
+      "disposition": "archived-conditional",
+      "reason": "Partial witnesses of intermediate interfaces, with residual assumptions/admissions. They do not instantiate the full InductScope or prove end-to-end satisfiability.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Experimental/MkRecInfosProbe.lean",
+      "added": 498,
+      "deleted": 0,
+      "source_sha256": "e84246e2228f74aa4eba08ec8f652b601d36f79d223893060d2dc5e377d0ca93",
+      "disposition": "archived-conditional",
+      "reason": "Partial witnesses of intermediate interfaces, with residual assumptions/admissions. They do not instantiate the full InductScope or prove end-to-end satisfiability.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Experimental/WFExactRefutation.lean",
+      "added": 138,
+      "deleted": 0,
+      "source_sha256": "b29a96f11d2f39f4ae9c7a2dec6bb5f0a4e0e250028454d7019593e4e94f4b8c",
+      "disposition": "extracted",
+      "reason": "Retained as a current-version, explicitly scoped proof or regression; imports and assertions reviewed.",
+      "replacement": "Lean4Lean/Research/ConstructorEnvironment.lean"
+    },
+    {
+      "path": "Lean4Lean/Experimental/WFTeleProbe.lean",
+      "added": 195,
+      "deleted": 0,
+      "source_sha256": "4c3246418609aa5bd25f0ae71edcda50693f444fabb076ac73b1f3efb1f24d03",
+      "disposition": "extracted",
+      "reason": "Replaced translation-inversion probe, whose upstream TrExprS dependency includes admitted TrProj, by a direct concrete telescope witness. No claim of checker-to-spec correspondence.",
+      "replacement": "Lean4Lean/Research/TelescopeWitness.lean"
+    },
+    {
+      "path": "Lean4Lean/Inductive/Add.lean",
+      "added": 91,
+      "deleted": 5,
+      "source_sha256": "26124128f4d455b00d56112b70344d88fd8cf91cceff314ee65e018eea22fc8e",
+      "disposition": "split",
+      "reason": "Uniformity precheck extracted and differentially tested. Bounded fresh-name fallback excluded: a behavior change, with an upstream alternative in #62.",
+      "replacement": "Lean4Lean/Research/Uniformity.lean"
+    },
+    {
+      "path": "Lean4Lean/Theory/Inductive.lean",
+      "added": 30,
+      "deleted": 3,
+      "source_sha256": "c0caa81cf6ae86936ad0feefef1fc4f89869daecd615f3e485e6a334a95c495a",
+      "disposition": "replaced-by-isolation",
+      "reason": "Keep the abstract specification in Research, with large elimination an explicit argument; do not replace upstream theory interfaces or advertise integration.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Theory/InductiveSpec.lean",
+      "added": 490,
+      "deleted": 0,
+      "source_sha256": "35852545994eb1916931ca1fcbbb3dc709fb5380c1cc5209af3c9b85639b4950",
+      "disposition": "extracted",
+      "reason": "Retained as a current-version, explicitly scoped proof or regression; imports and assertions reviewed.",
+      "replacement": "Lean4Lean/Research/Inductive/Spec.lean"
+    },
+    {
+      "path": "Lean4Lean/Theory/InductiveSpecExists.lean",
+      "added": 596,
+      "deleted": 0,
+      "source_sha256": "ca2a0638df123df0555bb320c0b169cf30a9b6af276140ca075d0c7d8ec151ce",
+      "disposition": "extracted",
+      "reason": "Retained as a current-version, explicitly scoped proof or regression; imports and assertions reviewed.",
+      "replacement": "Lean4Lean/Research/Inductive/Exists.lean"
+    },
+    {
+      "path": "Lean4Lean/Theory/InductiveSpecTransport.lean",
+      "added": 1002,
+      "deleted": 0,
+      "source_sha256": "67e2e0a0854a35169950a7938e71b9308d914a6b65a2b31554ecf94d6deb77fa",
+      "disposition": "extracted",
+      "reason": "Retained as a current-version, explicitly scoped proof or regression; imports and assertions reviewed.",
+      "replacement": "Lean4Lean/Research/Inductive/Transport.lean"
+    },
+    {
+      "path": "Lean4Lean/Theory/InductiveSpecWF.lean",
+      "added": 3783,
+      "deleted": 0,
+      "source_sha256": "3351dab0484710326fae566811a2dfa155fafa40df22e050bf5c375863244136",
+      "disposition": "extracted",
+      "reason": "Retained as a current-version, explicitly scoped proof or regression; imports and assertions reviewed.",
+      "replacement": "Lean4Lean/Research/Inductive/WF.lean"
+    },
+    {
+      "path": "Lean4Lean/Theory/Typing/AnnotDefeq.lean",
+      "added": 296,
+      "deleted": 0,
+      "source_sha256": "17aecac2e422b6011735ac29d47ffd17e3fbdeb787316fd1b8ce675ff410da38",
+      "disposition": "archived-conditional",
+      "reason": "Annotation transport inherits uniqueness/injectivity admissions and an explicit prelude contract; no standalone unconditional result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Theory/Typing/ChurchRosser.lean",
+      "added": 1461,
+      "deleted": 36,
+      "source_sha256": "efe3e59e5871d3501a75f131ae98bb1b01ddc098b95e5dffc093684a4a73fa54",
+      "disposition": "archived-conditional",
+      "reason": "Restricted pattern hypotheses exclude intended Prop/function cases; root-pattern premise cannot handle lambda-abstracted equations. Compare #55/#56/#65; no general confluence claim.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Theory/Typing/InductiveLemmas.lean",
+      "added": 1,
+      "deleted": 1,
+      "source_sha256": "82cbb4fe8770b3ebdbe37c60fe430f05f631e1581a5ecb1bf88038565e09b587",
+      "disposition": "replaced-by-isolation",
+      "reason": "Keep the abstract specification in Research, with large elimination an explicit argument; do not replace upstream theory interfaces or advertise integration.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Theory/Typing/Injectivity.lean",
+      "added": 44,
+      "deleted": 0,
+      "source_sha256": "49c40f7a7c57e8fa537a3178890736de1fb90bf6178ffe736f823078480db88e",
+      "disposition": "superseded-notes",
+      "reason": "Analysis of an inherited open proof frontier, not a proof. Literature claims are not adopted without independent source review.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Theory/Typing/LevelCongr.lean",
+      "added": 148,
+      "deleted": 0,
+      "source_sha256": "9a0335b587cd10037851f24024f34bd8a6c0c323de1bf8d3adf30c8e1e0128ef",
+      "disposition": "archived-conditional",
+      "reason": "Typing transport depends on the uniqueness/injectivity frontier; related active confluence work should determine any extraction.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Theory/VDecl.lean",
+      "added": 8,
+      "deleted": 0,
+      "source_sha256": "b66f37fbcd00d9f4bfdfe56fdc28ead85c94527f9fa6e9f54ac02151761099f6",
+      "disposition": "replaced-by-isolation",
+      "reason": "Keep the abstract specification in Research, with large elimination an explicit argument; do not replace upstream theory interfaces or advertise integration.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Axioms.lean",
+      "added": 79,
+      "deleted": 0,
+      "source_sha256": "12c1fd8492026ba19ecdfaf861df959db645302061cc39c5df58d81ce6119a57",
+      "disposition": "archived-trust-extension",
+      "reason": "Adds modeled annotation stripping and traversal equations; avoids proof holes only by adding trust assumptions. Not needed by extracted abstract core.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment.lean",
+      "added": 870,
+      "deleted": 18,
+      "source_sha256": "321878d48a45cdbb8c71cdf5828fb9698fe525f8fe5525951e967d3784009bcc",
+      "disposition": "archived-conditional",
+      "reason": "Integration/support for the excluded checker bridge. Local axiom audit records exact dependencies; no end-to-end soundness claim.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Basic.lean",
+      "added": 56,
+      "deleted": 10,
+      "source_sha256": "b57d09860d9a32931967f114d23a03ac8789f0ccb60a64f1ddb51a9ad04e281f",
+      "disposition": "archived-conditional",
+      "reason": "Integration/support for the excluded checker bridge. Local axiom audit records exact dependencies; no end-to-end soundness claim.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Extension.lean",
+      "added": 0,
+      "deleted": 32,
+      "source_sha256": "1c15925287e08a91ad79dce7b5d84f980c5806ea5a5406ad98a1eca78a6f4221",
+      "disposition": "archived-conditional",
+      "reason": "Integration/support for the excluded checker bridge. Local axiom audit records exact dependencies; no end-to-end soundness claim.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive.lean",
+      "added": 1388,
+      "deleted": 0,
+      "source_sha256": "05dc661e0cc07cde8ff06edceb7ab29e8304962cac762017bd45d74b76e811a9",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/Annot.lean",
+      "added": 2559,
+      "deleted": 0,
+      "source_sha256": "c75ccc5181abafa8ed1b03e9c2eda69b9501811c45e674ef13534d760102eac2",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/Ctors.lean",
+      "added": 2176,
+      "deleted": 0,
+      "source_sha256": "f710d302b069ccb765ef7278dd9a023c37911cdabc2fc91ade84078179761e84",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/MinorSpec.lean",
+      "added": 424,
+      "deleted": 0,
+      "source_sha256": "b6c2954bf057c3de868085b7527cb1939e2905b53a7cf75e45d25388c7b1115c",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/MinorTele.lean",
+      "added": 514,
+      "deleted": 0,
+      "source_sha256": "bf38ff287f11bddca153a0d9c3eb8d9b0b347a4ff9ad465821b443a677cdaf6f",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/README.md",
+      "added": 85,
+      "deleted": 0,
+      "source_sha256": "70f78467c8a8e0a2bed21068d55be589d36de3ffc2de7d0bdf95a75953bb9b1b",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecAssembly.lean",
+      "added": 744,
+      "deleted": 0,
+      "source_sha256": "31e1c37a840f22107c63db3824620a9fa7fb00274ad4c3803a95c311733ed481",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecConsts.lean",
+      "added": 346,
+      "deleted": 0,
+      "source_sha256": "461e208b20091cb9d723b04c70826bdabda4f598816badd22db82f0746c5deaa",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecInfos.lean",
+      "added": 1284,
+      "deleted": 0,
+      "source_sha256": "34b1d9dfa4108fc585f14480a32ec52942e4dfb2cc910b303e2717d438299929",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecLoop.lean",
+      "added": 309,
+      "deleted": 0,
+      "source_sha256": "0c33f149378884031ca5520fda5aed13c222b29305a6abc799ff17f4e3e0f3c9",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecOpeners.lean",
+      "added": 2303,
+      "deleted": 0,
+      "source_sha256": "2ba5419afcfac648e81fd9f7bf5f714d3002734346d9839ec24df8e33944670f",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecPack.lean",
+      "added": 929,
+      "deleted": 0,
+      "source_sha256": "c94cef3a3172b04fce5d30d6c9dad537bbdd24656e3b6ba959b2c2c4c38619c0",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecRules.lean",
+      "added": 3769,
+      "deleted": 0,
+      "source_sha256": "0358fc9bfbbb1f1ab7c0acb9d72028a0ceeb9b6825d473768dc0bc69f39f304d",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecRulesData.lean",
+      "added": 1233,
+      "deleted": 0,
+      "source_sha256": "8979eb9cd79e7cfb0b7591eb1789a288a33eb3a095a486b721fbdc15e84e2f0d",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecSpec.lean",
+      "added": 3171,
+      "deleted": 0,
+      "source_sha256": "8e45f902232be1444aeaee7147fb9baa82240d6ff65807c421423f4de27093c8",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecTele.lean",
+      "added": 3332,
+      "deleted": 0,
+      "source_sha256": "d78f0b51a0468e933d37e11463dcbb1fbdfbdd976e1e5824db15cdf944541260",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecType.lean",
+      "added": 1291,
+      "deleted": 0,
+      "source_sha256": "ca577e01a3314f50c99becca959441579dbbbc88527d6e3bd0f7c725c941bf03",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecTypeAnchor.lean",
+      "added": 432,
+      "deleted": 0,
+      "source_sha256": "672e8ee284e6336db3e5993c6ee0a6f1e2644352393d3b4181148de01e953836",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecTypeSpec.lean",
+      "added": 519,
+      "deleted": 0,
+      "source_sha256": "c8ba701ea8e67a95d41a64c69e0d219869ba9f1f13e31bb2874d1b554404a8a1",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecTypes.lean",
+      "added": 201,
+      "deleted": 0,
+      "source_sha256": "8c51287c86aca1006ecf58bfdc4292fd954fb970dd023e5c2d810d7eb6723201",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RecWalk.lean",
+      "added": 1614,
+      "deleted": 0,
+      "source_sha256": "3dd169ec059762621dd6eee66a9c19e3569d7983e4cd6cf264455d965540f16a",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/Run.lean",
+      "added": 3945,
+      "deleted": 0,
+      "source_sha256": "0cdb17dac0f30c428d7c8cdcf1ffed3cc9ca1800845cd1525f6dce96c2a69c18",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RunAnchor.lean",
+      "added": 708,
+      "deleted": 0,
+      "source_sha256": "33b83493dde6f165d33c9d74ba87d32bac6fdbf7668b066a8c07404d9bcdae1b",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RunAssembly.lean",
+      "added": 660,
+      "deleted": 0,
+      "source_sha256": "2b45f88047c7ea832138dcf3de5a1d0f3c4a010d87c8e661031fcf3e4e73149c",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/RunWF.lean",
+      "added": 913,
+      "deleted": 0,
+      "source_sha256": "a574bd079d1062a3b6645a95118c5886f03547b754a59c17d7781290cd509254",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Inductive/Types.lean",
+      "added": 1902,
+      "deleted": 0,
+      "source_sha256": "2c4b12a502e859349cda120252df73e5bd73cabd72fc3c253013d657642f6f99",
+      "disposition": "archived-conditional",
+      "reason": "Compiled and axiom-audited in the legacy snapshot. The full bridge relies on unresolved/false model interfaces and an overbroad InductScope; not extracted as a verified checker result.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Environment/Lemmas.lean",
+      "added": 190,
+      "deleted": 4,
+      "source_sha256": "4d478ca5577877477e06584d277090db253a56d5b879380f3f174d8ed43248da",
+      "disposition": "archived-conditional",
+      "reason": "Integration/support for the excluded checker bridge. Local axiom audit records exact dependencies; no end-to-end soundness claim.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/LocalContext.lean",
+      "added": 80,
+      "deleted": 0,
+      "source_sha256": "d8cb61578fc0f28cd6368d1bb2f26f6cde2b927738e779b93a68b7aaf164eb12",
+      "disposition": "archived-conditional",
+      "reason": "Integration/support for the excluded checker bridge. Local axiom audit records exact dependencies; no end-to-end soundness claim.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/TypeChecker.lean",
+      "added": 1,
+      "deleted": 1,
+      "source_sha256": "76f685bd312cc36a30078801e5b507c27ec9537d12213267065f4460dee3beb3",
+      "disposition": "archived-conditional",
+      "reason": "Integration/support for the excluded checker bridge. Local axiom audit records exact dependencies; no end-to-end soundness claim.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/TypeChecker/Basic.lean",
+      "added": 1,
+      "deleted": 1,
+      "source_sha256": "c683c5e17132aac5de07883385a500cbcfb38db0917fde06549b4061e053ed41",
+      "disposition": "archived-conditional",
+      "reason": "Integration/support for the excluded checker bridge. Local axiom audit records exact dependencies; no end-to-end soundness claim.",
+      "replacement": null
+    },
+    {
+      "path": "Lean4Lean/Verify/Typing/Expr.lean",
+      "added": 30,
+      "deleted": 2,
+      "source_sha256": "5e738eb27f64443a440bd47fb3ac18f29fd26a50babdc0434b69e7309d9e51c1",
+      "disposition": "refuted-interface",
+      "reason": "Draft TrProj ignores idx and permits a context-dependent result from a closed subject. A standard-axiom counterexample is retained locally to the test.",
+      "replacement": "Lean4Lean/Research/ProjectionCounterexample.lean"
+    },
+    {
+      "path": "Lean4Lean/Verify/Typing/Lemmas.lean",
+      "added": 235,
+      "deleted": 17,
+      "source_sha256": "ea1943f75c663b33793ee7fc843ed7ffe60c26d45eaf8005a50fcd2e0f603aed",
+      "disposition": "archived-conditional",
+      "reason": "Projection closedness claim refuted; uniqueness still admitted. Translation helpers may be useful after repairing the interface; not promoted as sound.",
+      "replacement": null
+    },
+    {
+      "path": "Main.lean",
+      "added": 2,
+      "deleted": 5,
+      "source_sha256": "6457bb5b3785b79f00a4162c161d31a6a22f33e859e70a959ab1ccc9181b8aec",
+      "disposition": "replaced",
+      "reason": "Fresh pinned Lean 4.35 research build on current upstream; old execution/fuel settings and aggregate probe target not carried over.",
+      "replacement": null
+    },
+    {
+      "path": "MathlibIndTest.lean",
+      "added": 170,
+      "deleted": 0,
+      "source_sha256": "54f4b5e6f84279dfb54e56c4b9b592407ec8e0640283867c37c0a8e5515f64ba",
+      "disposition": "historical",
+      "reason": "Original source and reports preserved; old mathlib corpus not rerun. Counts are historical, not theorem coverage.",
+      "replacement": null
+    },
+    {
+      "path": "NestedTest.lean",
+      "added": 200,
+      "deleted": 0,
+      "source_sha256": "87dcfb92f2041ff50f0cd65d9bd37330fa7623ba2a53da017b017317bf5c1a54",
+      "disposition": "extracted",
+      "reason": "Retained as a current-version, explicitly scoped proof or regression; imports and assertions reviewed.",
+      "replacement": "Lean4Lean/Research/KernelRecursorChecks.lean"
+    },
+    {
+      "path": "ResidueIota.lean",
+      "added": 113,
+      "deleted": 0,
+      "source_sha256": "8bc6c15a50d4fd3e43c42e8fe260431ba0710988d5f11537f880279fa34967df",
+      "disposition": "historical",
+      "reason": "Original source and reports preserved; old mathlib corpus not rerun. Counts are historical, not theorem coverage.",
+      "replacement": null
+    },
+    {
+      "path": "ResidueList.lean",
+      "added": 557,
+      "deleted": 0,
+      "source_sha256": "9b9cd574c5d782fac2e27ccd21f45fc1e48538614040452556b73a37b9256f86",
+      "disposition": "historical",
+      "reason": "Original source and reports preserved; old mathlib corpus not rerun. Counts are historical, not theorem coverage.",
+      "replacement": null
+    },
+    {
+      "path": "ScopeSweep.lean",
+      "added": 549,
+      "deleted": 0,
+      "source_sha256": "8fee7d5345a23c30c9550be6ffb24942ec7a961aaa208986bb9c9e51a9e3f93d",
+      "disposition": "historical",
+      "reason": "Original source and reports preserved; old mathlib corpus not rerun. Counts are historical, not theorem coverage.",
+      "replacement": null
+    },
+    {
+      "path": "StatementBaseline.expected.txt",
+      "added": 924,
+      "deleted": 0,
+      "source_sha256": "2c1e8d9cdac8106b6378db6256f095d7cd5ad12409f4d0997ab566d96e30807a",
+      "disposition": "superseded-docs",
+      "reason": "Historical notes/baselines preserved at the source revision; replaced by corrected claim, assumption, reproduction and disposition records.",
+      "replacement": null
+    },
+    {
+      "path": "StatementBaseline.lean",
+      "added": 39,
+      "deleted": 0,
+      "source_sha256": "28c109ded9d36a612cf51c94240ddb22a22750f4c3a04423f3fb12223c2db27f",
+      "disposition": "superseded-docs",
+      "reason": "Historical notes/baselines preserved at the source revision; replaced by corrected claim, assumption, reproduction and disposition records.",
+      "replacement": null
+    },
+    {
+      "path": "UnsafeReplay.lean",
+      "added": 107,
+      "deleted": 0,
+      "source_sha256": "966278b087f46ccebc0a151d1dcb6b118c2647bd06ed88876e15efe9ffedb8f2",
+      "disposition": "historical",
+      "reason": "Original source and reports preserved; old mathlib corpus not rerun. Counts are historical, not theorem coverage.",
+      "replacement": null
+    },
+    {
+      "path": "lakefile.toml",
+      "added": 14,
+      "deleted": 1,
+      "source_sha256": "5a71c4583d823a106a5743dd134eb0d3845b736e660044ab5d0cd13f7a9e5403",
+      "disposition": "replaced",
+      "reason": "Fresh pinned Lean 4.35 research build on current upstream; old execution/fuel settings and aggregate probe target not carried over.",
+      "replacement": null
+    },
+    {
+      "path": "lean-toolchain",
+      "added": 1,
+      "deleted": 1,
+      "source_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "disposition": "replaced",
+      "reason": "Fresh pinned Lean 4.35 research build on current upstream; old execution/fuel settings and aggregate probe target not carried over.",
+      "replacement": null
+    },
+    {
+      "path": "upstream-notes.md",
+      "added": 200,
+      "deleted": 0,
+      "source_sha256": "7be2a8a7b4078fa2ffd55bd588f2264fb7e7a639619fcc9e32a9a0b4618c5c19",
+      "disposition": "superseded-docs",
+      "reason": "Historical notes/baselines preserved at the source revision; replaced by corrected claim, assumption, reproduction and disposition records.",
+      "replacement": null
+    }
+  ],
+  "review_method": "Every changed file classified; legacy targets rebuilt and theorem dependencies traced; selected contracts independently exercised on Lean 4.35.0. Not an independent proof of the entire prototype."
+}

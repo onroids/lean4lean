@@ -1,5 +1,10 @@
 # Lean-for-Lean
 
+> **Research branch:** start with [the reviewed experiments](research/README.md).
+> This branch pins Lean 4.35.0. Its default `lake build` builds the research suite;
+> the full upstream verification library has not been ported as part of this work.
+> The remaining text describes the upstream project.
+
 This is an implementation of the Lean 4 kernel written in (mostly) pure Lean 4.
 It is derived directly from the C++ kernel implementation, and as such likely
 shares some implementation bugs with it (it's not really an independent
@@ -18,7 +23,10 @@ To compile the code, you will need [Lean](https://lean-lang.org/lean4/doc/quicks
 lake build
 ```
 
-This builds all components but you can also build them separately:
+On upstream this builds the default components. On this research branch it builds
+`Lean4Lean.Research`; run `bash research/check.sh` to include the axiom audit.
+Other targets remain available separately, subject to the migration limitations
+documented in [the review](research/REVIEW.md):
 
 * `lake build Lean4Lean` builds the `Lean4Lean` library interface, and does not include any of the proofs.
 * `lake build lean4lean` (note the capitalization!) builds the `lean4lean` command line tool, again without building proofs.

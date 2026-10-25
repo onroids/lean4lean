@@ -1,0 +1,36 @@
+source audit: 20 modules covered; no added admissions
+info: Lean4Lean/Research/InductiveDifferential.lean:84:0: Nat: OK (1 types, 2 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:86:0: List: OK (1 types, 2 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:88:0: Eq: OK (1 types, 1 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:90:0: Or: OK (1 types, 2 iota rules, largeElim=false)
+info: Lean4Lean/Research/InductiveDifferential.lean:92:0: And: OK (1 types, 1 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:94:0: Exists: OK (1 types, 1 iota rules, largeElim=false)
+info: Lean4Lean/Research/InductiveDifferential.lean:96:0: False: OK (1 types, 0 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:97:0: Empty: OK (1 types, 0 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:99:0: Acc: OK (1 types, 1 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:101:0: Prod: OK (1 types, 1 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:102:0: PProd: OK (1 types, 1 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:103:0: Sigma: OK (1 types, 1 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:105:0: Subtype: OK (1 types, 1 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:107:0: Bool: OK (1 types, 2 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:108:0: Ordering: OK (1 types, 3 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:119:0: EvenT: OK (2 types, 3 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:131:0: TreeT: OK (2 types, 4 iota rules, largeElim=true)
+info: Lean4Lean/Research/InductiveDifferential.lean:136:0: mass check: 2907 blocks checked, 38 nested and 1 big-literal blocks skipped, 0 failures
+info: Lean4Lean/Research/InductiveDifferential.lean:217:0: iota typing check: 2907 blocks, 4619 rules verified, 0 failures
+info: Lean4Lean/Research/KernelRecursorChecks.lean:108:0: erasure: 0 leaked `_nested` declarations, 0 constants mentioning one
+info: Lean4Lean/Research/KernelRecursorChecks.lean:108:0: nested blocks: 39, their recursors: 172
+info: Lean4Lean/Research/KernelRecursorChecks.lean:108:0: iota coherence: 3051 recursors, 4953 rules, 0 failures
+info: Lean4Lean/Research/KernelRecursorChecks.lean:171:0: negative control: 3/3 planted faults caught
+info: Lean4Lean/Research/KernelRecursorChecks.lean:171:0: caught [Nat.rec rules swapped]: Nat.rec/Nat.zero: nfields 1 exceeds constructor arity 0
+info: Lean4Lean/Research/KernelRecursorChecks.lean:171:0: caught [Nat.rec rule misnamed]: Nat.rec/Nat.succ: the two sides have different types
+info: Lean4Lean/Research/KernelRecursorChecks.lean:171:0: caught [NestedFixture.rec (nested) rules swapped]: NestedFixture.rec/NestedFixture.leaf: nfields 1 exceeds constructor arity 0
+info: Lean4Lean/Research/UniformityTests.lean:23:0: uniformity: 4 raw declarations; native/candidate agree, upstream accepts both erased nonuniform cases
+info: Lean4Lean/Research/UniformityTests.lean:37:0: uniformity: 14 traversal controls passed
+info: Lean4Lean/Research/UniformityTests.lean:64:0: uniformity: 1360 imported native blocks / 2115 constructors accepted
+info: Lean4Lean/Research/InheritedModelCounterexample.lean:20:0: inherited models: both issue #48 mismatches reproduced
+info: Lean4Lean/Research/ReplayTests.lean:16:0: replay: 8 identical kinds reused, 17 conflicts rejected, fresh theorem added
+info: Lean4Lean/Research/ScopeCounterexample.lean:15:0: scope: empty local context, valid environment; alias unfolds to the block (occurrence false -> true)
+info: Lean4Lean/Research/SpecLimits.lean:11:0: spec limits: native accepts equivalent result levels and a hidden telescope; the abstract spec rejects both
+Build completed successfully (108 jobs).
+axiom audit: 750 declarations; only standard axioms outside the three named refutations
