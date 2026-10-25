@@ -182,6 +182,15 @@ partial def replayConstant (name : Name) : M Unit := do
     replayConstants usedConstants
     -- Check that this name is still pending: a mutual block may have taken care of it.
     if (← get).pending.contains name then
+      -- Imported modules can contain the same generated declaration. Compare
+      -- every ConstantInfo field, including theorem/opaque bodies, declaration
+      -- kind, safety and recursor metadata, before reusing an existing entry.
+      -- `value?` alone is insufficient: it hides theorem and opaque bodies.
+      if let some existing := (← get).env.find? name then
+        unless existing == ci do
+          throw <| IO.userError s!"at {name}: already declared, with different content"
+        modify fun s => { s with pending := s.pending.erase name }
+        return
       let addDeclAt (d : Declaration) :=
         try addDecl d catch e => throw <| IO.userError s!"at {name}: {e.toString}"
       match ci with
@@ -264,6 +273,11 @@ def replay (ctx : Context) (env : Environment) (decl : Option Name := none) :
     IO (Nat × Environment) := do
   let mut remaining : NameSet := ∅
   for (n, ci) in ctx.newConstants.toList do
+    -- Check collisions before the unsafe/partial filter: otherwise changing
+    -- a safe declaration's flag could hide a conflicting existing entry.
+    if let some existing := env.find? n then
+      unless existing == ci do
+        throw <| IO.userError s!"at {n}: already declared, with different content"
     -- We skip unsafe constants, and also partial constants.
     -- Later we may want to handle partial constants.
     if !ci.isUnsafe && !ci.isPartial then
