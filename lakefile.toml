@@ -1,5 +1,5 @@
 name = "lean4lean"
-defaultTargets = ["Lean4Lean", "lean4lean", "Lean4Lean.Theory", "Lean4Lean.Verify"]
+defaultTargets = ["Lean4Lean.Research"]
 
 [[require]]
 name = "batteries"
@@ -29,3 +29,8 @@ globs = ["Lean4Lean.Experimental.+"]
 name = "lean4lean"
 root = "Main"
 supportInterpreter = true
+
+# Reviewed research suite; see research/README.md for the validation boundary.
+[[lean_lib]]
+name = "Lean4Lean.Research"
+globs = ["Lean4Lean.Research.+"]
