@@ -43,8 +43,12 @@ def Reflection.defn₁ : Reflection where
     H fun h _ => h rfl)
   ofFalse := q(fun p (H : ∀ {q : Prop}, ((false = true → p) → (¬false = true → ¬p) → q) → q) =>
     H fun _ h => h Bool.noConfusion)
-  toDec := q(fun p b (H : ∀ {q : Prop}, ((b = true → p) → (¬b = true → ¬p) → q) → q) =>
-    if h : b = true then isTrue (H fun h' _ => h' h) else isFalse (H fun _ h' => h' h))
+  toDec := q(fun (p : Prop) (b : Bool)
+      (H : ∀ {q : Prop}, ((b = true → p) → (¬b = true → ¬p) → q) → q) =>
+    (⟨b, b.casesOn (motive := fun b' => b = b' → Bool.Reflects b' p)
+      (fun h => H fun _ h' => h' fun hb =>
+        Bool.noConfusion (show (true : Bool) = false from hb ▸ h))
+      (fun h => H fun h' _ => h' h) rfl⟩ : Decidable p))
 
 def Reflection.defn₂ : Reflection where
   type := q(fun p b => ∀ {q : Prop}, ((b = true → p) → (b = false → ¬p) → q) → q)
@@ -52,9 +56,11 @@ def Reflection.defn₂ : Reflection where
     H fun h _ => h rfl)
   ofFalse := q(fun p (H : ∀ {q : Prop}, ((false = true → p) → (false = false → ¬p) → q) → q) =>
     H fun _ h => h rfl)
-  toDec := q(fun p b (H : ∀ {q : Prop}, ((b = true → p) → (b = false → ¬p) → q) → q) =>
-    b.casesOn (motive := fun b' => b = b' → Decidable p)
-      (fun h => isFalse (H fun _ h' => h' h)) (fun h => isTrue (H fun h' _ => h' h)) rfl)
+  toDec := q(fun (p : Prop) (b : Bool)
+      (H : ∀ {q : Prop}, ((b = true → p) → (b = false → ¬p) → q) → q) =>
+    (⟨b, b.casesOn (motive := fun b' => b = b' → Bool.Reflects b' p)
+      (fun h => H fun _ h' => h' h)
+      (fun h => H fun h' _ => h' h) rfl⟩ : Decidable p))
 
 def Reflection.check (r : Reflection) (fail : ∀ {α}, M α) : M Unit := do
   unless ← isDefEq (← checkType r.type) q(Prop → Bool → Prop) do fail
@@ -168,7 +174,7 @@ protected def Condition.dite (cond : Condition) (args: Array Expr) (t e : Expr) 
     (.lam0 (mkApp q(Not) (mkAppN cond.prop args)) e)
 
 protected def Condition.decide (cond : Condition) (args : Array Expr) : Expr :=
-  cond.ite q(Bool) args q(true) q(false)
+  mkApp2 q(@Decidable.decide) (mkAppN cond.prop args) (mkAppN cond.dec args)
 
 def unfoldWellFounded (e : Expr) (fvs : Array Expr) (eq_def : Expr) (fail : ∀ {α}, M α) :
     M Expr := do
